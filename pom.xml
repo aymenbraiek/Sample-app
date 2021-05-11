@@ -51,7 +51,7 @@
 				<version>0.9.10</version>
 				<configuration>
 					<to>
-						<image>docker.io/aymenbraiek2019/sample-app:${project.version}</image>
+						<image>aymenbraiek2019/sample-app:${project.version}</image>
 						<auth>
 							<username>aymenbraiek2019</username>
 							<password>devops@esprit</password>
