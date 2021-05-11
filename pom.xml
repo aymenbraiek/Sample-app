@@ -45,6 +45,21 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>0.9.10</version>
+				<configuration>
+					<to>
+						<image>docker.io/aymenbraiek2019/sample-app:${project.version}</image>
+						<auth>
+							<username>aymenbraiek2019</username>
+							<password>devops@esprit</password>
+						</auth>
+
+					</to>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 	<repositories>
